@@ -1,0 +1,19 @@
+{
+  "name": "note-service",
+  "version": "1.0.0",
+  "description": "Note service implements micro services and express API with PM2.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mekyi/note-service.git"
+  },
+  "author": "Mikael Björke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mekyi/note-service/issues"
+  },
+  "homepage": "https://github.com/Mekyi/note-service#readme"
+}
