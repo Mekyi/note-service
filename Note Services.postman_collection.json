@@ -1,0 +1,109 @@
+{
+	"info": {
+		"_postman_id": "ec3246c5-debc-4dbd-ac7b-ba91eac38f80",
+		"name": "Note Services",
+		"description": "Cloud Computing - Final Assignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Operation Info Service",
+			"item": [
+				{
+					"name": "http://localhost:3000/api/info",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/info",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"info"
+							]
+						},
+						"description": "GET service info about operations"
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Note Data Service",
+			"item": [
+				{
+					"name": "http://localhost:3000/api/categories",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/categories",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"categories"
+							]
+						},
+						"description": "GET categories"
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/api/notes/1",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/notes/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"notes",
+								"1"
+							]
+						},
+						"description": "GET notes by category"
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/api/note/2",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/note/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"note",
+								"2"
+							]
+						},
+						"description": "GET note by id"
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}

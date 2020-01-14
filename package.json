@@ -2,8 +2,9 @@
   "name": "note-service",
   "version": "1.0.0",
   "description": "Note service implements micro services and express API with PM2.",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "start": "pm2 start app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/Mekyi/note-service/issues"
   },
-  "homepage": "https://github.com/Mekyi/note-service#readme"
+  "homepage": "https://github.com/Mekyi/note-service#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pm2": "^4.2.1",
+    "seneca": "^3.17.0",
+    "seneca-web": "^2.2.1",
+    "seneca-web-adapter-express": "^1.2.1"
+  },
+  "devDependencies": {}
 }

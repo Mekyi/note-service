@@ -1,0 +1,64 @@
+{
+  "categories": [
+    {
+      "categoryId": 0,
+      "name": "Assignments",
+      "notes": [
+        {
+          "id": 0,
+          "name": "Assignment1",
+          "description": "Do assignment",
+          "createdDate": "",
+          "modifiedDate": "",
+          "class": "Critical"
+        },
+        {
+          "id": 1,
+          "name": "Assignment2",
+          "description": "Do assignment",
+          "createdDate": "",
+          "modifiedDate": "",
+          "class": "Critical"
+        },
+        {
+          "id": 2,
+          "name": "Assignment3",
+          "description": "Do assignment",
+          "createdDate": "",
+          "modifiedDate": "",
+          "class": "Moderate"
+        }
+      ]
+    },
+    {
+      "categoryId": 1,
+      "name": "Remember",
+      "notes": [
+        {
+          "id": 3,
+          "name": "Remember1",
+          "description": "Do assignment",
+          "createdDate": "",
+          "modifiedDate": "",
+          "class": "Low"
+        },
+        {
+          "id": 4,
+          "name": "Remember2",
+          "description": "Do assignment",
+          "createdDate": "",
+          "modifiedDate": "",
+          "class": "Moderate"
+        },
+        {
+          "id": 5,
+          "name": "Remember3",
+          "description": "Do assignment",
+          "createdDate": "",
+          "modifiedDate": "",
+          "class": "Critical"
+        }
+      ]
+    }
+  ]
+}

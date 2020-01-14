@@ -1,0 +1,19 @@
+{
+  "operations": {
+    "categories": {
+      "name": "categories",
+      "path": "/api/categories",
+      "description": "GET list of categories"
+    },
+    "notes": {
+      "name": "notes",
+      "path": "/api/notes/{categoryId}",
+      "description": "GET notes by category"
+    },
+    "note": {
+      "name": "note",
+      "path": "/api/note/{id}",
+      "description": "GET note by id"
+    }
+  }
+}
