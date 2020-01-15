@@ -41,16 +41,4 @@ module.exports = function ApiPlugin(options) {
       }
     }, respond)
   })
-
-  // this.add('init:InfoMS', function(msg, respond) {
-  //   this.act('role:web', {
-  //     routes: {
-  //       prefix: '/api',
-  //       pin: 'role:api,path:*',
-  //       map: { 
-  //         info: { GET: true },
-  //       }
-  //     }
-  //   }, respond)
-  // })
 }

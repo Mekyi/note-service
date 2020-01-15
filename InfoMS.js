@@ -1,6 +1,3 @@
 require('seneca')()
   .use('InfoPlugin')
-  .listen({
-    type: 'tcp',
-    pin: 'role:info'
-  });
+  .listen({ port: 9001, host: 'localhost', pin:'role:info' })

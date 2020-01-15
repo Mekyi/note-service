@@ -1,6 +1,4 @@
 require('seneca')()
   .use('NotesPlugin')
-  .listen({
-    type: 'tcp',
-    pin: 'role:notes'
-  });
+  .listen({ port: 9000, host: 'localhost', pin:'role:notes' 
+  })
